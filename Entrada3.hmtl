@@ -1,0 +1,14 @@
+<style>
+  body { font-family: 'Segoe UI', sans-serif; max-width: 800px; margin: auto; padding: 2em; line-height: 1.6; background: #f4f4f4; color: #333; }
+  img { width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 20px 0; }
+  .btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; }
+</style>
+
+<a href="index.html" class="btn">← Volver al Inicio</a>
+
+<h1>Entrada 3: Conclusiones del Laboratorio</h1>
+<p>Finalizo la actividad logrando un sitio web completamente funcional y navegable.</p>
+
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Conclusión">
+
+<p>La combinación de GitHub para el hosting y HTML/CSS para el desarrollo demuestra lo accesible que es crear presencia en la web hoy en día.</p>
