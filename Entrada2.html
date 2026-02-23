@@ -2,25 +2,40 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body { font-family: 'Inter', sans-serif; max-width: 900px; margin: auto; padding: 40px; line-height: 1.8; background: #050505; color: #ffffff; }
-        .back-link { color: #f472b6; text-decoration: none; font-weight: 600; margin-bottom: 30px; display: block; }
-        h1 { font-size: 3.5rem; background: linear-gradient(90deg, #f472b6, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 20px; }
-        img { width: 100%; border-radius: 0px; filter: grayscale(20%) contrast(110%); border-left: 5px solid #f472b6; margin: 40px 0; }
-        .content { border-left: 1px solid #333; padding-left: 30px; }
-        code { background: #1a1a1a; padding: 4px 8px; border-radius: 4px; color: #f472b6; }
+        body { font-family: 'Inter', sans-serif; max-width: 850px; margin: auto; padding: 60px 20px; line-height: 1.8; background: #050505; color: #d4d4d8; }
+        .back { color: #818cf8; text-decoration: none; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px; }
+        h1 { font-size: 4rem; font-weight: 800; background: linear-gradient(to bottom right, #818cf8, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 20px 0; }
+        .img-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 40px 0; }
+        .img-grid img { width: 100%; height: 250px; object-fit: cover; border-radius: 15px; border: 1px solid #27272a; }
+        .feature-card { border: 1px solid #27272a; padding: 40px; border-radius: 24px; background: rgba(255,255,255,0.02); margin: 40px 0; }
+        .accent { color: #a78bfa; font-weight: bold; }
     </style>
 </head>
 <body>
-    <a href="index.html" class="back-link">← EXPLORAR OTROS MÓDULOS</a>
-    <h1>Estética Dinámica: El Alma del CSS</h1>
+    <a href="index.html" class="back">← Volver al Menú Principal</a>
+    <h1>Estética y Emoción: La Capa de CSS3</h1>
     
-    <div class="content">
-        <p>Si el HTML es el esqueleto, el <span style="color: #f472b6;">CSS3</span> es el sistema nervioso y la piel. Es donde la lógica se encuentra con la emoción.</p>
+    <p>El diseño no es lo que parece, es cómo funciona. En esta segunda etapa, hemos transformado un documento de texto árido en una <span class="accent">experiencia de usuario inmersiva</span> utilizando las capacidades avanzadas de CSS3.</p>
 
-        <img src="https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=2070&auto=format&fit=crop" alt="Abstract Art Neon">
-
-        <p>A través de propiedades como <code>flexbox</code> y <code>grid</code>, hemos transformado un documento plano en una experiencia inmersiva. El diseño web moderno exige una comprensión profunda del espacio negativo, la teoría del color y la psicología del usuario.</p>
+    <div class="img-grid">
+        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070&auto=format&fit=crop" alt="Hardware Tech">
+        <img src="https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=1887&auto=format&fit=crop" alt="Abstract 3D">
     </div>
+
+    <h2>Diseño Minimalista y "Dark Mode"</h2>
+    <p>Se ha implementado una paleta de colores basada en grises profundos y violetas eléctricos. Esta elección no es estética; responde a una tendencia moderna de reducción de fatiga visual y ahorro energético en pantallas OLED.</p>
+
+    <div class="feature-card">
+        <h3>Innovaciones Aplicadas:</h3>
+        <ul>
+            <li><strong>Gradientes Lineales:</strong> Utilizados en los encabezados para guiar la mirada del usuario.</li>
+            <li><strong>Border Radius:</strong> Suavizado de interfaces para una sensación orgánica.</li>
+            <li><strong>Box Shadows:</strong> Creación de jerarquía visual mediante profundidad simulada.</li>
+        </ul>
+    </div>
+
+    <p>La combinación de fuentes sans-serif de alta legibilidad con espaciados generosos (line-height) asegura que el lector pueda procesar la información de manera eficiente, eliminando el ruido visual innecesario.</p>
 </body>
 </html>
