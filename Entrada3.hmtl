@@ -1,14 +1,25 @@
-<style>
-  body { font-family: 'Segoe UI', sans-serif; max-width: 800px; margin: auto; padding: 2em; line-height: 1.6; background: #f4f4f4; color: #333; }
-  img { width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 20px 0; }
-  .btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; }
-</style>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: 'Inter', sans-serif; max-width: 900px; margin: auto; padding: 40px; line-height: 1.8; background: #0a0a0a; color: #d1d5db; }
+        .back-link { border: 1px solid #4b5563; padding: 10px 20px; border-radius: 50px; color: #9ca3af; text-decoration: none; display: inline-block; margin-bottom: 40px; }
+        h1 { font-size: 2.5rem; color: #fbbf24; margin-bottom: 20px; }
+        .hero-img { width: 100%; height: 500px; object-fit: cover; border-radius: 10px; opacity: 0.8; }
+        .quote { font-style: italic; font-size: 1.5rem; color: #fbbf24; border-top: 1px solid #333; padding-top: 20px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">VOLVER AL ORIGEN</a>
+    <h1>Conclusiones: Hacia la Nueva Frontera Digital</h1>
+    
+    <p>Este laboratorio no solo representa la creación de un blog; simboliza el dominio sobre las herramientas que moldean la realidad virtual actual.</p>
 
-<a href="index.html" class="btn">← Volver al Inicio</a>
+    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop" alt="Global Network">
 
-<h1>Entrada 3: Conclusiones del Laboratorio</h1>
-<p>Finalizo la actividad logrando un sitio web completamente funcional y navegable.</p>
-
-<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Conclusión">
-
-<p>La combinación de GitHub para el hosting y HTML/CSS para el desarrollo demuestra lo accesible que es crear presencia en la web hoy en día.</p>
+    <p>El despliegue exitoso en <strong>GitHub Pages</strong> demuestra que la barrera entre la idea y la ejecución se ha disuelto. La programación es, en última instancia, el arte de resolver problemas complejos de forma creativa y eficiente.</p>
+    
+    <div class="quote">"La web no es un producto final, es un organismo en constante evolución."</div>
+</body>
+</html>
