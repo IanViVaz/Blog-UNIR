@@ -1,15 +1,117 @@
-<style>
-  body { font-family: 'Inter', sans-serif; background: #000; color: #fff; text-align: center; padding: 50px; }
-  .container { max-width: 600px; margin: auto; }
-  h1 { font-size: 3rem; margin-bottom: 40px; background: linear-gradient(to right, #38bdf8, #fbbf24); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-  .card { background: #111; border: 1px solid #333; padding: 30px; margin: 20px 0; border-radius: 15px; transition: 0.4s; }
-  .card:hover { border-color: #38bdf8; transform: scale(1.05); }
-  a { color: #fff; text-decoration: none; font-size: 1.4rem; font-weight: bold; }
-</style>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio: Creación de un blog</title>
+    <style>
+        body { 
+            font-family: 'Inter', system-ui, sans-serif; 
+            background: #000; 
+            color: #fff; 
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
 
-<div class="container">
-  <h1>PORTAFOLIO DIGITAL</h1>
-  <div class="card"><a href="Entrada1.html">01. ARQUITECTURA</a></div>
-  <div class="card"><a href="Entrada2.html">02. ESTÉTICA</a></div>
-  <div class="card"><a href="Entrada3.html">03. CONCLUSIÓN</a></div>
-</div>
+        .container { 
+            max-width: 800px; 
+            width: 90%;
+            text-align: center; 
+            z-index: 1;
+        }
+
+        h1 { 
+            font-size: 2.5rem; 
+            margin-bottom: 50px; 
+            background: linear-gradient(to right, #38bdf8, #fbbf24); 
+            -webkit-background-clip: text; 
+            -webkit-text-fill-color: transparent; 
+            letter-spacing: -1px;
+            text-transform: uppercase;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .card { 
+            background: rgba(255, 255, 255, 0.05); 
+            border: 1px solid rgba(255, 255, 255, 0.1); 
+            padding: 25px; 
+            border-radius: 12px; 
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); 
+            text-decoration: none;
+            display: block;
+        }
+
+        .card:hover { 
+            background: rgba(56, 189, 248, 0.1);
+            border-color: #38bdf8; 
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 10px 30px rgba(56, 189, 248, 0.2);
+        }
+
+        .card span { 
+            color: #fff; 
+            font-size: 1.2rem; 
+            font-weight: 600; 
+            letter-spacing: 1px;
+        }
+
+        /* Firma en la esquina inferior derecha */
+        .signature {
+            position: fixed;
+            bottom: 30px;
+            right: 40px;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.5);
+            letter-spacing: 1px;
+            font-weight: 300;
+        }
+
+        .signature strong {
+            color: #38bdf8;
+            font-weight: 600;
+        }
+
+        /* Decoración de fondo */
+        .bg-glow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(56, 189, 248, 0.15) 0%, rgba(0,0,0,0) 70%);
+            z-index: 0;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-glow"></div>
+
+    <div class="container">
+        <h1>Laboratorio: Creación de un blog</h1>
+        
+        <div class="menu">
+            <a href="Entrada1.html" class="card"><span>01. ARQUITECTURA DIGITAL</span></a>
+            <a href="Entrada2.html" class="card"><span>02. ESTÉTICA Y DISEÑO</span></a>
+            <a href="Entrada3.html" class="card"><span>03. CONCLUSIONES FINALES</span></a>
+        </div>
+    </div>
+
+    <div class="signature">
+        Por <strong>Ian Vicente Vázquez</strong>
+    </div>
+
+</body>
+</html>
