@@ -2,26 +2,39 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body { font-family: 'Inter', system-ui, sans-serif; max-width: 900px; margin: auto; padding: 40px; line-height: 1.8; background: #0f172a; color: #e2e8f0; }
-        .back-link { color: #38bdf8; text-decoration: none; font-weight: 600; display: flex; align-items: center; gap: 8px; margin-bottom: 30px; transition: 0.3s; }
-        .back-link:hover { color: #7dd3fc; transform: translateX(-5px); }
-        h1 { font-size: 3rem; color: #f8fafc; margin-bottom: 20px; letter-spacing: -1px; line-height: 1.1; }
-        .meta { color: #94a3b8; font-size: 0.9rem; margin-bottom: 40px; text-transform: uppercase; letter-spacing: 2px; }
-        img { width: 100%; height: 450px; object-fit: cover; border-radius: 24px; box-shadow: 0 20px 50px rgba(0,0,0,0.5); margin: 40px 0; border: 1px solid rgba(255,255,255,0.1); }
-        p { font-size: 1.15rem; margin-bottom: 25px; color: #cbd5e1; }
-        .highlight { color: #38bdf8; font-weight: bold; }
+        body { font-family: 'Inter', system-ui, -apple-system, sans-serif; max-width: 850px; margin: auto; padding: 60px 20px; line-height: 1.8; background: #0b0f19; color: #cbd5e1; }
+        .nav-btn { display: inline-flex; align-items: center; padding: 12px 24px; background: rgba(56, 189, 248, 0.1); color: #38bdf8; border: 1px solid #38bdf8; border-radius: 50px; text-decoration: none; font-weight: 600; transition: 0.3s; margin-bottom: 50px; }
+        .nav-btn:hover { background: #38bdf8; color: #fff; transform: translateY(-2px); }
+        h1 { font-size: 3.5rem; color: #f8fafc; line-height: 1.1; margin-bottom: 20px; letter-spacing: -2px; }
+        .subtitle { font-size: 1.2rem; color: #94a3b8; border-left: 4px solid #38bdf8; padding-left: 20px; margin-bottom: 40px; }
+        .hero-img { width: 100%; height: 400px; object-fit: cover; border-radius: 30px; margin: 40px 0; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5); }
+        h2 { color: #f8fafc; margin-top: 50px; font-size: 1.8rem; }
+        .tech-box { background: #1e293b; padding: 30px; border-radius: 20px; border: 1px solid #334155; margin: 40px 0; }
+        .tech-box h3 { color: #38bdf8; margin-top: 0; }
     </style>
 </head>
 <body>
-    <a href="index.html" class="back-link">← Volver al Centro de Control</a>
-    <div class="meta">Entrada 01 // Fundamentos Estructurales</div>
-    <h1>La Arquitectura Invisible del Código</h1>
+    <a href="index.html" class="nav-btn">← Volver al Centro de Control</a>
     
-    <p>Detrás de cada interfaz vibrante existe una estructura silenciosa. El <span class="highlight">HTML5</span> no es simplemente un lenguaje de marcado; es la columna vertebral que sostiene la semántica de la información en la era digital.</p>
+    <h1>La Arquitectura del Mañana: Estructuras en HTML5</h1>
+    <p class="subtitle">Explorando la ingeniería detrás de la web moderna y la importancia de la semántica digital.</p>
 
-    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop" alt="Cyber Security Visual">
+    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop" class="hero-img" alt="Digital Infrastructure">
 
-    <p>En este laboratorio, hemos explorado cómo la jerarquía de etiquetas define la accesibilidad y la legibilidad. Construir una web no es "dibujar" en una pantalla, es organizar el pensamiento humano para que sea interpretable tanto por personas como por máquinas.</p>
+    <p>En este laboratorio, hemos profundizado en el concepto de que el **HTML5** no es simplemente una herramienta para colocar texto en una pantalla. Es un lenguaje de arquitectura. La verdadera potencia de un sitio web profesional reside en su estructura invisible: la semántica.</p>
+
+    <h2>1. El Esqueleto Semántico</h2>
+    <p>Al utilizar etiquetas como <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code> y <code>&lt;nav&gt;</code>, estamos comunicando a los motores de búsqueda y a las tecnologías de asistencia exactamente qué función cumple cada fragmento de contenido. Esto no solo mejora el SEO, sino que garantiza que la web sea universalmente accesible.</p>
+
+    <div class="tech-box">
+        <h3>Concepto Clave: DOM (Document Object Model)</h3>
+        <p>Cada vez que escribimos código HTML, estamos construyendo un árbol de objetos que el navegador interpreta. Durante esta actividad, aprendimos a manipular este árbol para crear una navegación fluida y lógica.</p>
+    </div>
+
+    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop" style="width: 100%; border-radius: 20px;" alt="Coding screen">
+
+    <p>Para concluir esta fase, la integración de imágenes de alta resolución mediante hipervínculos externos nos ha permitido entender la eficiencia en el manejo de recursos distribuidos, manteniendo el repositorio de GitHub ligero pero visualmente impactante.</p>
 </body>
 </html>
