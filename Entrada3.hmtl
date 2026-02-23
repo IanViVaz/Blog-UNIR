@@ -2,24 +2,37 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body { font-family: 'Inter', sans-serif; max-width: 900px; margin: auto; padding: 40px; line-height: 1.8; background: #0a0a0a; color: #d1d5db; }
-        .back-link { border: 1px solid #4b5563; padding: 10px 20px; border-radius: 50px; color: #9ca3af; text-decoration: none; display: inline-block; margin-bottom: 40px; }
-        h1 { font-size: 2.5rem; color: #fbbf24; margin-bottom: 20px; }
-        .hero-img { width: 100%; height: 500px; object-fit: cover; border-radius: 10px; opacity: 0.8; }
-        .quote { font-style: italic; font-size: 1.5rem; color: #fbbf24; border-top: 1px solid #333; padding-top: 20px; margin-top: 40px; }
+        body { font-family: 'Inter', sans-serif; max-width: 850px; margin: auto; padding: 60px 20px; line-height: 1.9; background: #000; color: #a1a1aa; }
+        .nav { text-align: right; margin-bottom: 50px; }
+        .nav a { color: #fbbf24; text-decoration: none; border: 1px solid #fbbf24; padding: 8px 20px; border-radius: 4px; }
+        h1 { font-size: 3rem; color: #fff; margin-bottom: 30px; }
+        .highlight-box { border-top: 1px solid #3f3f46; border-bottom: 1px solid #3f3f46; padding: 40px 0; margin: 50px 0; display: flex; align-items: center; gap: 30px; }
+        .highlight-box img { width: 300px; border-radius: 10px; }
+        .conclusion { font-size: 1.4rem; color: #fbbf24; font-weight: 300; line-height: 1.4; margin-top: 60px; }
     </style>
 </head>
 <body>
-    <a href="index.html" class="back-link">VOLVER AL ORIGEN</a>
-    <h1>Conclusiones: Hacia la Nueva Frontera Digital</h1>
+    <div class="nav"><a href="index.html">SISTEMA FINALIZADO</a></div>
+    <h1>La Frontera Digital: Conclusiones del Laboratorio</h1>
     
-    <p>Este laboratorio no solo representa la creación de un blog; simboliza el dominio sobre las herramientas que moldean la realidad virtual actual.</p>
+    <p>Llegar al final de este desarrollo nos permite reflexionar sobre la democratización de la tecnología. Lo que hace años requería servidores complejos y equipos de IT, hoy se resuelve con **GitHub Pages** y un manejo experto de lenguajes base.</p>
 
-    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop" alt="Global Network">
+    <div class="highlight-box">
+        <div>
+            <h3>Sistemas de Despliegue Continuo</h3>
+            <p>Hemos integrado un flujo de trabajo profesional. Cada cambio realizado en el código se sincroniza automáticamente con el servidor global, permitiendo una iteración constante.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2026&auto=format&fit=crop" alt="Data Analytics">
+    </div>
 
-    <p>El despliegue exitoso en <strong>GitHub Pages</strong> demuestra que la barrera entre la idea y la ejecución se ha disuelto. La programación es, en última instancia, el arte de resolver problemas complejos de forma creativa y eficiente.</p>
-    
-    <div class="quote">"La web no es un producto final, es un organismo en constante evolución."</div>
+    <p>El aprendizaje más valioso de esta actividad de laboratorio es la capacidad de **extrapolación**. Estos mismos principios de HTML y CSS son la base de aplicaciones complejas, plataformas de e-commerce y sistemas de gestión de datos a escala global.</p>
+
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop" style="width: 100%; border-radius: 20px;" alt="Microchips">
+
+    <div class="conclusion">
+        "La programación no es solo escribir código; es el lenguaje con el que estamos construyendo el futuro de la comunicación humana."
+    </div>
 </body>
 </html>
